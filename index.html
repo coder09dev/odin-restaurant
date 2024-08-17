@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant</title>
+    <script src="index.js"></script>
+</head>
+<body>
+    <div class="tab">
+        <button class="tablinks" onmouseover="openTab(event, 'Home')">Home</button>
+        <button class="tablinks" onmouseover="openTab(event, 'Menu')">Menu</button>
+        <button class="tablinks" onmouseover="openTab(event, 'Contact')">Contact</button>
+    </div>
+      
+    <div id="Home" class="tabcontent" style="display:none;">
+        <h2>Home</h2>
+        <h3 id="title"></h3>
+        <p id="description"></p>
+        <div id="location"></div>
+    </div>
+    
+    <div id="Menu" class="tabcontent" style="display:none;">
+        <h2>Menu</h2>
+        <ul id="beverages">Beverages</ul>
+        <ul id="sides">Sides</ul>
+    </div>
+      
+    <div id="Contact" class="tabcontent" style="display:none;">
+        <h2>Contact</h2>
+        <div id="phone"></div>
+        <div id="email"></div>
+    </div>
+</body>
+</html>
